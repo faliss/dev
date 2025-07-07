@@ -7,4 +7,9 @@
  
 #include <iostream>
 using namespace std;
+  
+struct node {
+    int data;     // Stores the actual value
+    Node* next;  // Pointer to next node (or null if end)
 
+};
